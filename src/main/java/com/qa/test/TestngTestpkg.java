@@ -24,7 +24,7 @@ public class TestngTestpkg {
 	  	driver.manage().window().maximize();
 	  	driver.manage().timeouts().implicitlyWait(1,TimeUnit.SECONDS);
 	  	driver.get("https://www.google.com");
-	  	System.out.println("The tile of the browser is ::   "+driver.getTitle());
+	  	System.out.println("The tile of the browser is : :   "+driver.getTitle());
 		
 	}
 	
